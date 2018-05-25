@@ -14,7 +14,7 @@
         $subject="Message sent using your contact form";
         mail("elohor.thomas@meltwater.org", $subject, $message, $from);
         echo "Email sent!";
-        header('location: ../index.html');
+        header('location: ../home.html');
         }
     }  
 ?>
