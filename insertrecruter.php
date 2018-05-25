@@ -2,7 +2,7 @@
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 try{
-    $pdo = new PDO("mysql:host=localhost;dbname=profselfie", "devselfie", "@Msmdpb225@");
+    $pdo = new PDO("mysql:host=eu-cdbr-west-02.cleardb.net;dbname=heroku_22d3d3844877191", "ba4d6572da3fed", "a3559913");
     // Set the PDO error mode to exception
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch(PDOException $e){

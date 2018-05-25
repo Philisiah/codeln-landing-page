@@ -2,7 +2,7 @@
 // Connexion à la base de données
 try
 {
-  $bdd = new PDO('mysql:host=localhost;dbname=profselfie', 'devselfie', '@Msmdpb225@');
+  $bdd = new PDO("mysql:host=eu-cdbr-west-02.cleardb.net;dbname=heroku_22d3d3844877191", "ba4d6572da3fed", "a3559913");
   // $bdd = new PDO('mysql:host=localhost;dbname=root', 'devselfie', '');
 
 }
