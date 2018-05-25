@@ -13,5 +13,5 @@ $req = $bdd->prepare('INSERT INTO contact (nomcontact, emailcontact, subjectcont
 VALUES(?, ?, ?, ?)');
 $req->execute(array($_POST['nomcontact'], $_POST['emailcontact'], $_POST['subjectcontact'], $_POST['messagecontact']));
 // Redirection du visiteur vers la page du minichat
-header('Location: index.html');
+header('Location: home.html');
 ?>

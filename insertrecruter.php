@@ -28,7 +28,7 @@ try{
     // execute the prepared statement
     $stmt->execute();
     echo "Records inserted successfully.";
-    header('Location: index.html');
+    header('Location: home.html');
 } catch(PDOException $e){
     die("ERROR: Could not able to execute $sql. " . $e->getMessage());
 }
