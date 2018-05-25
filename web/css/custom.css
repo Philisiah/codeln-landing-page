@@ -1,0 +1,23 @@
+
+#logo img {
+    /* padding: 0;
+    margin: 0; */
+    height: 50px;
+    /* padding-top: -15px; */
+    width:100px;
+
+}
+#logo {
+  padding-left: 20px;
+}
+
+.form-container label{
+    margin-bottom:0; 
+}
+
+.fields-row input{
+    margin-bottom: 2% !important;
+}
+a{
+  color:#2dc997;
+}

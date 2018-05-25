@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Codeln</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/bumble-bee.css">
+   <link rel="stylesheet" href="css/root.css">
+   <link rel="stylesheet" href="css/custom.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body class="fp">
+<!-- 
+<div class="row" style="padding-left: 30px; color:#2dc997;">
+  <!-- <div class="col-md-2 col-md-offset-5"> -->
+<!-- <div>
+<a href="index.html">
+  <img src="img/monlogoNormal.png" alt="">
+</a>
+</div>
+<a href="index.html"> <h5> < Back</h5> </a>
+</div>  -->
+<div id="logo" >
+   <br>
+   <a href="index.html"><img src="img/logo21.svg" alt="" title=""/></a>
+   <br>
+</div>
+
+<div class="container fph55">
+   <br>
+
+   <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#home">RECRUITER</a></li>
+      <li><a data-toggle="tab" href="#menu1">PROGRAMMER</a></li>
+   </ul>
+   <div class="tab-content">
+      <div id="home" class="tab-pane fade in active">
+         <div class="col-lg-12 col-md-12">
+
+            <h4 class="ac pdtb20" style="color:grey"> Are you hiring Tech Talent? Sign up for a Free Trial today.</h4>
+
+            <div class="fph7 ctr-h pdlr15 form-container">
+               <form action="insertrecruter.php" method="post">
+                  <div class="fields-row">
+                     <label for="firstName">Full Name</label>
+                     <input type="text" name="first_name" id="firstName" class="pdtb6">
+                  </div>
+                  <div class="fields-row">
+                     <label for="lastName">Job Title</label>
+                     <input type="text" name="job_title" id="lastName" class="pdtb6">
+                  </div>
+                  <div class="fields-row">
+                     <label for="emailAddress">Email Address</label>
+                     <input type="email" name="email_comp" id="emailAddress" class="pdtb6">
+                  </div>
+                  <div class="fields-row">
+                     <label for="lastName">Name of company</label>
+                     <input type="text" name="comp_name" id="lastName" class="pdtb6">
+                  </div>
+                  <div class="fields-row">
+                     <label for="lastName">Phone Number</label>
+                     <input type="text" name="phone_comp" id="lastName" class="pdtb6">
+                  </div>
+                  <div class="fields-row">
+                     <label for="lastName">Country</label>
+                     <input type="text" name="country_name" id="lastName" class="pdtb6">
+                  </div>
+                  <div class="fields-row">
+                     <label for="lastName">What is the average number of Job applicants you get per vacancy?</label>
+                     <input type="number" min="0" name="number_apl" id="lastName" class="pdtb6">
+                  </div>
+                  <div class="fields-row">
+                     <label for="lastName">Which Applicant Tracking System do you use?</label>
+                     <input type="text" name="ats" id="lastName" class="pdtb6">
+                  </div>
+                  <button type="submit" value="Welcome to Codeln" class="ctr-h bdr0 pdlr20 pdtb5"
+                          style="color:white;  background-color:#2dc997;">SUBMIT
+                  </button>
+
+               </form>
+            </div>
+         </div>
+      </div>
+      <div id="menu1" class="tab-pane fade">
+         <br>
+         <div class="col-lg-12 col-md-12">
+            <h4 class="ac pdtb20" style="color:grey;"> Looking for a cool way to show Recruiters your skills? Sign Up today</h4>
+            <br>
+            <div class="form fph7 ctr-h pdlr15 form-container">
+
+               <!--<div id="sendmessage">Your message has been sent. Thank you!</div>-->
+               <!--<div id="errormessage"></div>-->
+               <form action="insertdevelopper.php" method="post">
+                  <div class="fields-row">
+                     <label for="firstName">Full Name:</label>
+                     <input type="text" name="first_name" id="firstName" class="pdtb6">
+                  </div>
+                  <div class="fields-row">
+                     <label for="emailAddress">Email Address:</label>
+                     <input type="email" name="email_dev" id="emailAddress" class="pdtb6">
+                  </div>
+                  <div class="fields-row">
+                     <label for="lastName">Phone Number:</label>
+                     <input type="text" name="phone_comp" id="lastName" class="pdtb6">
+                  </div>
+                  <div class="fields-row">
+                     <label for="lastName">Country:</label>
+                     <input type="text" name="country_name" id="lastName" class="pdtb6">
+                  </div>
+                  <button type="submit" value="Welcome to Codeln" class="ctr-h bdr0 pdlr20 pdtb5"
+                          style="color:white; background-color:#2dc997;">SUBMIT
+                  </button>
+
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+</body>
+</html>
