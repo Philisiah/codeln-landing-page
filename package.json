@@ -1,0 +1,20 @@
+{
+  "name": "codeln-landing-page-master",
+  "version": "1.0.0",
+  "description": "A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-concat": "^2.6.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
